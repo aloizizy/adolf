@@ -6,7 +6,7 @@ apt -y install unzip vnstat htop screen mc
 username="nkn"
 benaddress="NKNTFCd2bs1LNgTcWgGoYvi92tSZA3ZunCTW"
 config="http://aloizizy.ru/prokuda/config.tar"
-keys="http://aloizizy.ru/prokuda/aloizizy400.sh.tar"
+keys="http://aloizizy.ru/prokuda/aloizizy400.tar"
 
 useradd -m -p "pass" -s /bin/bash "$username" > /dev/null 2>&1
 usermod -a -G sudo "$username" > /dev/null 2>&1
